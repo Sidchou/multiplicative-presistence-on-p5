@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+div .wrapper {
+  display: flex;
+}
+.wrapper > * {
+  flex: 1 100%;
+}
+div .wrapper .asid{
+  min-width: 100px;
+}
+div .calender .container {
+  display: flex;
+  justify-content: center;
+
+}
+div .calender .container .grid{
+  justify-content: center;
+}
+div .toprow {
+display: flex;
+height: 40px;
+background-color: gray
+}
+div .week {
+display: flex;
+}
+div .day {
+display: block;
+border: solid black 1px
+}
+
+div .cells{
+  display: block;
+  min-width: 100px;
+  height: 100px;
+}
